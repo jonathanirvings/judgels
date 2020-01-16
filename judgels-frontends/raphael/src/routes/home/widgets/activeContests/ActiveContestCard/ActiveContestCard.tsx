@@ -19,7 +19,7 @@ export class ActiveContestCard extends React.PureComponent<ActiveContestCardProp
     const { contest, role } = this.props;
 
     return (
-      <ContentCardLink to={`/contests/${contest.slug}`}>
+      <ContentCardLink to={`/contests/${contest.slug}/`}>
         <h4 className="active-contest-card-name">
           {contest.name}
           <div className="active-contest-card-role">
